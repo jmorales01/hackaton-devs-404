@@ -1,6 +1,6 @@
 assets/*
-src/.md
-src/assets/preferences/
+src/*.md
+src/assets/preferences/*
 src/assets/tmp/*
 src/view/cache
 src/core/slim/vendor
