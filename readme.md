@@ -56,6 +56,8 @@ Para ejecutar este proyecto con Docker, asegúrese de tener Docker y Docker Comp
 2. Acceda a la aplicación web en su navegador en http://localhost.
 3. Acceda a phpMyAdmin en su navegador en http://localhost:8000.
 
+> **Nota:** Si cambias de dirección de volume elimina el volume anterior antes de ejecuta el contenedor `docker volume rm hackaton-dev-404_persistent`.
+
 ### Posibles Soluciones a Problemas 🔧
 
 - **Error de conexión a la base de datos:**
