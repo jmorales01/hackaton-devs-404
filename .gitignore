@@ -1,22 +1,11 @@
 assets/*
 src/*.md
-src/go/app/assets/preferences/*
-src/go/app/assets/tmp/*
-src/go/app/view/cache
-src/go/app/core/vendor
-src/go/app/core/libs/PHPMailer/examples
-src/go/app/core/libs/PHPMailer/docs
-src/go/app/core/libs/PHPMailer/test
-src/go/app/core/libs/phpqrcode/cache
-*cache*
-src/api/Temp/*
-src/api-schools/Temp/*
-src/api/Empresas/*
-src/api-schools/Empresas/*
-src/admin/app/view/cache
+src/assets/preferences/*
+src/assets/tmp/*
+src/view/cache
+src/core/slim/vendor
 
 .envs3
 migrations/dist/*
-.env
 node_modules
 package-lock.json

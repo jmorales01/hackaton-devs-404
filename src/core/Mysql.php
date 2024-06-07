@@ -15,14 +15,7 @@ class Mysql
     {
         try {
             if ($connect) :
-                if (isset($_SESSION['user'])) :
-
-                    $this->link = mysqli_connect(DEFAULT_DB['HOST'], DEFAULT_DB['USER'], DEFAULT_DB['PASSWORD'], $_SESSION['user']['db']['name']);
-
-                else :
-                    $this->link = mysqli_connect(DEFAULT_DB['HOST'], DEFAULT_DB['USER'], DEFAULT_DB['PASSWORD'], DEFAULT_DB['NAME']);
-
-                endif;
+                $this->link = mysqli_connect($_ENV['MYSQL_HOST'], $_ENV['MYSQL_USER'], $_ENV['MYSQL_PASSWORD'], $_ENV['MYSQL_DATABASE']);
             endif;
         } catch (\Exception $e) {
 

@@ -1,36 +1,33 @@
-<html>
-    <head>
-        <title>Devs 404</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-    </head>
-    <body>
-        <div class="container-fluid">
-            <?php
-                echo "<h1>Chistian aqui añade tu codigo!</h1>";
+<?php
+use Psr\Http\Message\ResponseInterface as Response;
+use Psr\Http\Message\ServerRequestInterface as Request;
+use Slim\Factory\AppFactory;
+use Psr\Container\ContainerInterface;
 
-                $conn = mysqli_connect('db', 'root', 'password', "utp");
 
-                $query = 'SELECT * From Person';
-                $result = mysqli_query($conn, $query);
+require __DIR__ . '/core/slim/vendor/autoload.php';
+require __DIR__ . '/core/Mysql.php';
 
-                echo '<table class="table table-striped">';
-                echo '<thead><tr><th></th><th>id</th><th>name</th></tr></thead>';
-                while($value = $result->fetch_array(MYSQLI_ASSOC)){
-                    echo '<tr>';
-                    echo '<td><a href="#"><span class="glyphicon glyphicon-search"></span></a></td>';
-                    foreach($value as $element){
-                        echo '<td>' . $element . '</td>';
-                    }
+// Import controllers
+require __DIR__ . '/controllers/HomeController.php';
+require __DIR__ . '/controllers/ChatController.php';
 
-                    echo '</tr>';
-                }
-                echo '</table>';
 
-                $result->close();
-                mysqli_close($conn);
-            ?>
-        </div>
-    </body>
-</html>
+$app = AppFactory::create();
+$mysql = new \core\Mysql();
+
+
+$app->get('/', function (Request $request, Response $response, $args) use ($mysql) {
+    $controller = new \controllers\HomeController($mysql);
+    $controller->index($request, $args);
+    return $response;
+});
+
+$app->get('/chat', function (Request $request, Response $response, $args) use ($mysql) {
+    $controller = new \controllers\ChatController($mysql);
+    $controller->index($request, $args);
+    return $response;
+});
+
+
+$app->run();
