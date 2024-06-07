@@ -6,10 +6,12 @@
 
 ## Estadísticas del Repositorio 📊
 
-![GitHub Stars](https://img.shields.io/github/stars/jmorales01/hackaton-devs-404) 
-![GitHub Forks](https://img.shields.io/github/forks/jmorales01/hackaton-devs-404)
-![GitHub Issues](https://img.shields.io/github/issues/jmorales01/hackaton-devs-404)
-![GitHub Pull Requests](https://img.shields.io/github/issues-pr/jmorales01/hackaton-devs-404)
+![Estado del Proyecto](https://img.shields.io/badge/estado-en%20desarrollo-brightgreen)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![GitHub stars](https://img.shields.io/github/stars/jmorales01/hackaton-devs-404)
+![GitHub PRs](https://img.shields.io/github/issues-pr/jmorales01/hackaton-devs-404)
+![GitHub forks](https://img.shields.io/github/forks/jmorales01/hackaton-devs-404)
+![GitHub issues](https://img.shields.io/github/issues/jmorales01/hackaton-devs-404)
 
 
 ## Estructura del Proyecto 🗂️
@@ -81,9 +83,7 @@ Para ejecutar este proyecto con Docker, asegúrese de tener Docker y Docker Comp
 
 ### Contribuyentes ✨
 
-<a href="https://github.com/jmorales01/hackaton-devs-404/graphs/contributors">
-  <img src="https://contrib.rocks/image?repojmorales01/hackaton-devs-404" />
-</a>
+- [![Usuario1](https://avatars.githubusercontent.com/u/usuario1?v=3&s=48)](https://github.com/usuario1) [Usuario1](https://github.com/usuario1)
 
 ## Licencia 📄
 
@@ -91,4 +91,4 @@ Este proyecto está bajo la licencia MIT. Consulte el archivo [LICENSE](LICENSE)
 
 ---
 
-¡Gracias por visitar nuestro repositorio Devs 404! 🌟
+¡Gracias por visitar nuestro repositorio Devs 404! 🌟🧑‍💻
