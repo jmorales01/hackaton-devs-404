@@ -81,8 +81,9 @@ Para ejecutar este proyecto con Docker, asegúrese de tener Docker y Docker Comp
 
 ### Contribuyentes ✨
 
-- [![Usuario1](https://avatars.githubusercontent.com/u/usuario1?v=3&s=48)](https://github.com/usuario1) [Usuario1](https://github.com/usuario1)
-
+<a href="https://github.com/jmorales01/hackaton-devs-404/graphs/contributors">
+  <img src="https://contrib.rocks/image?repojmorales01/hackaton-devs-404" />
+</a>
 
 ## Licencia 📄
 
