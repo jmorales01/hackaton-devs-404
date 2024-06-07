@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Welcome to LAMP Infrastructure</title>
+        <title>Devs 404</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
         <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -8,7 +8,7 @@
     <body>
         <div class="container-fluid">
             <?php
-                echo "<h1>¡Hola, Antonio te da la bienvenida!</h1>";
+                echo "<h1>Chistian aqui añade tu codigo!</h1>";
 
                 $conn = mysqli_connect('db', 'root', 'password', "utp");
 
