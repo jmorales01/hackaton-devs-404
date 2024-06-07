@@ -60,6 +60,13 @@ Para ejecutar este proyecto con Docker, asegúrese de tener Docker y Docker Comp
 
 ### Posibles Soluciones a Problemas 🔧
 
+- **Error de ejecucion de dockerFile composer**
+  - Abrir el terminal de docker `docker exec -it php-slim bash`
+  - Ejecutar el archivo de instalación de Composer `php composer-setup.php`
+  - Inicializar Composer `php composer.phar init --name=slim/devs --type=application`
+  - Instalar dependencias  `php ./composer.phar install --no-dev --no-progress --no-interaction`
+  - Añadir la dependencia `php composer.phar require slim/slim:^4.13.0`
+
 - **Error de conexión a la base de datos:**
   - Asegúrese de que el contenedor de la base de datos está en ejecución.
   - Verifique los detalles de conexión (nombre de usuario, contraseña, nombre de la base de datos) en el archivo `docker-compose.yml`.
