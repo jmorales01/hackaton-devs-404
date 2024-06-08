@@ -1,4 +1,6 @@
-<div align="center"># Hackathon Devs 404 🚀</div>
+<div align="center">
+# Hackathon Devs 404 🚀
+</div>
 
 ¡Bienvenidos al repositorio de Devs 404! Este proyecto ha sido desarrollado durante la Hackathon organizada por el equipo de EXPEDITION. Nuestro objetivo es crear soluciones innovadoras y de alto impacto que resuelvan problemas reales utilizando tecnología de vanguardia. ¡Esperamos que disfruten explorando nuestro trabajo!
 
