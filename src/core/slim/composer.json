@@ -1,21 +1,17 @@
 {
     "name": "slim/devs",
     "type": "application",
-    "authors": [
-        {
-            "name": "isau"
+    "autoload": {
+        "psr-4": {
+            "Slim\\Devs\\": "slim/"
         }
-    ],
+    },
     "require": {
-        "phpoffice/phpspreadsheet": "^1.11",
-        "picqer/php-barcode-generator": "^2.2",
-        "aws/aws-sdk-php": "^3.209",
-        "greenter/xmldsig": "^5.0",
-        "chillerlan/php-qrcode": "^4.3",
-        "mpdf/mpdf": "^8.0.4",
         "slim/slim": "^4.13.0",
         "slim/psr7": "^1.0",
         "nyholm/psr7": "^1.8",
-        "nyholm/psr7-server": "^1.1"
+        "nyholm/psr7-server": "^1.1",
+        "guzzlehttp/psr7": "^2.0",
+        "laminas/laminas-diactoros": "^3.2"
     }
 }
