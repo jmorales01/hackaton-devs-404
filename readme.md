@@ -1,19 +1,17 @@
-<div align="center">
+
 # Hackathon Devs 404 🚀
-</div>
 
 ¡Bienvenidos al repositorio de Devs 404! Este proyecto ha sido desarrollado durante la Hackathon organizada por el equipo de EXPEDITION. Nuestro objetivo es crear soluciones innovadoras y de alto impacto que resuelvan problemas reales utilizando tecnología de vanguardia. ¡Esperamos que disfruten explorando nuestro trabajo!
 
 ## Estadísticas del Repositorio 📊
 
-<div align="center">
-  ![Estado del Proyecto](https://img.shields.io/badge/estado-en%20desarrollo-brightgreen)
-  ![Version](https://img.shields.io/badge/version-1.0.0-blue)
-  ![GitHub stars](https://img.shields.io/github/stars/jmorales01/hackaton-devs-404)
-  ![GitHub PRs](https://img.shields.io/github/issues-pr/jmorales01/hackaton-devs-404)
-  ![GitHub forks](https://img.shields.io/github/forks/jmorales01/hackaton-devs-404)
-  ![GitHub issues](https://img.shields.io/github/issues/jmorales01/hackaton-devs-404)
-</div>
+![Estado del Proyecto](https://img.shields.io/badge/estado-en%20desarrollo-brightgreen)
+![Version](https://img.shields.io/badge/version-1.0.0-blue)
+![GitHub stars](https://img.shields.io/github/stars/jmorales01/hackaton-devs-404)
+![GitHub PRs](https://img.shields.io/github/issues-pr/jmorales01/hackaton-devs-404)
+![GitHub forks](https://img.shields.io/github/forks/jmorales01/hackaton-devs-404)
+![GitHub issues](https://img.shields.io/github/issues/jmorales01/hackaton-devs-404)
+
 
 ## Estructura del Proyecto 🗂️
 
@@ -109,9 +107,7 @@ Este proyecto está bajo la licencia MIT. Consulte el archivo [LICENSE](LICENSE)
 
 ---
 
-<div align="center">
-  ##¡Gracias por visitar nuestro repositorio Devs 404! 🌟🧑‍💻
-</div>
+##¡Gracias por visitar nuestro repositorio Devs 404! 🌟🧑‍💻
 
 
 ---
