@@ -1,6 +1,5 @@
-# Hackathon Devs 404 🚀
 
-## Descripción 📝
+# Hackathon Devs 404 🚀
 
 ¡Bienvenidos al repositorio de Devs 404! Este proyecto ha sido desarrollado durante la Hackathon organizada por el equipo de EXPEDITION. Nuestro objetivo es crear soluciones innovadoras y de alto impacto que resuelvan problemas reales utilizando tecnología de vanguardia. ¡Esperamos que disfruten explorando nuestro trabajo!
 
@@ -60,6 +59,21 @@ Para ejecutar este proyecto con Docker, asegúrese de tener Docker y Docker Comp
 
 ### Posibles Soluciones a Problemas 🔧
 
+- **Error de ejecucion de dockerFile composer**
+  - Abrir el terminal de docker `docker exec -it php-slim bash`
+  - Copiar el instalador `php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"`
+  - Ejecutar el archivo de instalación de Composer `php composer-setup.php`
+  - Inicializar Composer `php composer.phar init --name=slim/devs --type=application`
+  - Instalar dependencias  `php ./composer.phar install --no-dev --no-progress --no-interaction`
+  - Añadir la dependencia 
+```bash
+  php composer.phar require slim/slim:^4.13.0
+  php composer.phar require slim/psr7:^1.0 --with-all-dependencies
+  php composer.phar require nyholm/psr7 nyholm/psr7-server
+  php composer.phar require guzzlehttp/psr7:^2.0
+  php composer.phar require laminas/laminas-diactoros
+```
+
 - **Error de conexión a la base de datos:**
   - Asegúrese de que el contenedor de la base de datos está en ejecución.
   - Verifique los detalles de conexión (nombre de usuario, contraseña, nombre de la base de datos) en el archivo `docker-compose.yml`.
@@ -93,13 +107,10 @@ Este proyecto está bajo la licencia MIT. Consulte el archivo [LICENSE](LICENSE)
 
 ---
 
-¡Gracias por visitar nuestro repositorio Devs 404! 🌟🧑‍💻
+##¡Gracias por visitar nuestro repositorio Devs 404! 🌟🧑‍💻
 
 
 ---
 <div align="center">
-<a href="https://porfolio.dev/">
-<img src="./public/images/devs 404.jpg">
-</a>
-<p></p>
+  <img src="./public/images/devs 404.jpg">
 </div>

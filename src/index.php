@@ -11,6 +11,7 @@ require __DIR__ . '/core/Mysql.php';
 // Import controllers
 require __DIR__ . '/controllers/HomeController.php';
 require __DIR__ . '/controllers/ChatController.php';
+require __DIR__ . '/controllers/TareaController.php';
 
 
 $app = AppFactory::create();
@@ -29,5 +30,10 @@ $app->get('/chat', function (Request $request, Response $response, $args) use ($
     return $response;
 });
 
+$app->get('/tarea', function (Request $request, Response $response, $args) use ($mysql) {
+    $controller = new \controllers\TareaController($mysql);
+    $controller->index($request, $args);
+    return $response;
+});
 
 $app->run();
