@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+header {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.header {
+    width: 70vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.link-header {
+    width: 300px;
+    height:50px;
+    text-decoration: none;
+    color: black;
+    font-size: 2em;
+    border-radius: 20px;
+    background: rgb(42, 50, 71);
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin: 10px;
+    text-align:center;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+}
+.task{
+    width:500vw;
+}
+.targets{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.targets li{
+    list-style: none;
+    margin: 10px;
+}
+.targets li a{
+    text-decoration: none;
+    font-size: 2em;
+    color: black;
+    padding: 10px 20px;
+    margin: 10px;
+    text-align:center;
+}
+.create-task{
+    width:500vw;
+}
+.form-task{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-task h1{
+    font-size: 2em;
+    margin: 10px;
+}
+.form-task form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+.form-task form .option-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top:10px;
+}
+.form-task form .option-form label{
+    font-size: 1.5em;
+    margin: 10px;
+}
+.form-task form .option-form input{
+    border-radius: 20px;
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 10px;
+}
+.form-task form .option-form select{
+    font-size: 1.5em;
+    padding: 10px;
+    margin: 10px;
+}
+.form-task form button{
+    border-radius: 20px;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    margin: 10px;
+    background: rgb(42, 50, 71);
+    color: rgb(255, 255, 255);
+}
